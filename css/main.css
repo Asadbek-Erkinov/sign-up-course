@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Inter";
+  font-weight: bold;
+  font-display: swap;
+  src: url("/fonts/Inter/interbold.woff2") format("woff2"),
+  url("/fonts/Inter/interbold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/Inter/intermedium.woff2") format("woff2"),
+  url("/fonts/Inter/intermedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: normal;
+  font-display: swap;
+  src: url("/fonts/Inter/interregular.woff2") format("woff2"),
+  url("/fonts/Inter/interregular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/Inter/intersemibold.woff2") format("woff2"),
+  url("/fonts/Inter/intersemibold.woff") format("woff");
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  background-color: #F1F4FF;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.container {
+  width: 1240px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.hero-inner {
+  display: flex;
+}
+
+.hero-text-wrappper {
+  width: 570px;
+  margin-right: 12px;
+}
+
+.hero-text-wrap {
+  background-image: url("/images/heroback.png");
+}
+
+.hero-span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 41px;
+  padding-block: 5px;
+  padding-inline: 15px;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  color: #fff;
+  margin-bottom: 25px;
+  margin-top: 60px;
+}
+
+.hero-text {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+}
+
+.site-main {
+  margin-block: 100px;
+}
+
+.learnto-wrap {
+  padding-block: 55px 200px;
+  margin-left: 60px;
+  width: 389px;
+}
+
+.hero-desc {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 22.99px;
+  text-align: center;
+  margin: 0;
+  color: #fff;
+}
+
+.span-desc {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 22.99px;
+  text-align: center;
+  color: #fff;
+  
+}
+
+.desc-wrap {
+  background-color: #4DC490;
+  padding-block: 28px 29px;
+  border-radius: 0 0 20px 20px;
+}
+
+.form-wrapper {
+  width: 570px;
+  padding-block: 55px 40px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.form-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  margin: 0;
+  margin-bottom: 60px;  
+}
+
+.input-form-wrap {
+  width: 428px;
+}
+
+.input-all {
+  width: 450px;
+  border: none;
+  outline: none;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 35px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #555555;
+}
+
+.form-text-wrap {
+  width: 428px;
+  margin-left: 60px;
+}
+
+.form-button {
+  width: 450px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+  color: #fff;  
+  background-color: #655AF2;
+  padding-block: 20px;
+  padding-inline: 100px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 28px;
+  margin-bottom: 8px;
+}
+
+.form-textt {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  margin: 0;
+  color: #555555;
+  text-align: center;
+}
+
+.form-spann {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #F03535;  
+}
